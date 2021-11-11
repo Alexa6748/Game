@@ -1,4 +1,4 @@
-const board = document.querySelector('#board');
+const board = document.querySelector('board');
 const colors = ['#fbf2eb', '#2e5e84', '#bbd70b', '#fa9705', '#d7beac'];
 const SQUARES_NUMBER = 480;
 
@@ -14,7 +14,7 @@ for (let i = 0; i < SQUARES_NUMBER; i++) {
         removeColor(square)
     });
 
-    board.append(square);
+    board.append(square)
 }
 
 function setColor(element) {

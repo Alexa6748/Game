@@ -31,3 +31,7 @@ body {
   .square:hover {
     transition-duration: 0s;
   }
+  .rectangle {
+    width:100vh;
+    height: 100vh;
+  }
